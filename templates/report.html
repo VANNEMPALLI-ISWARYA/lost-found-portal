@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Lost/Found Item</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Report a Lost or Found Item</h1>
+        <nav>
+            <a href="/">Home</a> | 
+            <a href="/view">View Items</a>
+        </nav>
+    </header>
+    <main>
+        <form action="/report" method="POST">
+            <label for="item_name">Item Name:</label>
+            <input type="text" id="item_name" name="item_name" required><br>
+            
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" required></textarea><br>
+            
+            <label for="contact">Your Contact Information:</label>
+            <input type="text" id="contact" name="contact" required><br>
+            
+            <label for="status">Status:</label>
+            <select id="status" name="status">
+                <option value="lost">Lost</option>
+                <option value="found">Found</option>
+            </select><br>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+</html>
