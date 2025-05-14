@@ -27,9 +27,3 @@ A simple, student-friendly web portal to report and find lost items within a col
 
 ---
 
-## 🖥️ How to Run Locally
-
-1. Clone the repo:
-```bash
-git clone https://github.com/YOUR_USERNAME/lost-found-portal.git
-cd lost-found-portal
