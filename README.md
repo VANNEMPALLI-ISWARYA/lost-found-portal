@@ -1,6 +1,14 @@
 # 🎒 Lost & Found Portal
+## 📌 Project Overview
 
 A simple, student-friendly web portal to report and find lost items within a college campus.
+Many students lose personal items like ID cards, pens, water bottles, and accessories inside the college campus. This web portal is a simple solution:
+
+- 📢 Students can **report lost or found items**
+- 👀 Others can **view and search** the items
+- 🤝 Helps reunite students with their belongings
+
+This project is ideal for small colleges, hostels, libraries, or student groups.
 
 > Built using **Python**, **Flask**, **HTML**, and **SQLite**  
 > Deployed on [Render](https://render.com)
